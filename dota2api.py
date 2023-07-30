@@ -49,7 +49,7 @@ class URLBuilder():
         return self.getURL()
 
 def get_win_by_match(matchID):
-    """ Weird helper function (unused). Returns if radiant won a match.
+    """ Weird helper function. Returns if radiant won a match.
     Args:
         matchID (int): ID of the match.
     Returns:
