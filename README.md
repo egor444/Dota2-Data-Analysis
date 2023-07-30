@@ -23,14 +23,14 @@ This project requires the following libraries and software:
 |   ├── .gitkeep
 ```
 
-- **dota2api.py** contains the code for fetching data from the steam API
+- **dota2api.py** contains the code for fetching data from the Steam API.
 - **pandas.ipynb** is a Jupyter Notebook containing the code for data analysis using Pandas.
-- **data** is the folder with all the stored data, including match data, abilities, hero IDs, item IDs and possibly more.
-- **private** is the folder including a private file *steam_data.txt*, which should have your Steam Web API Key.
+- **data** is the folder with all the stored data, including match data, abilities, hero IDs, item IDs, and possibly more.
+- **private** is the folder that includes the private file *steam_data.txt*, which should have your Steam Web API Key.
 
 ## Further Resources
-Much of the constant data, like abilities, heroes and IDs and other game data, can be downloaded from opendotas [Github](https://github.com/odota/dotaconstants/tree/master/build). This does not reqire API access.
-Keep in mind, that someties the data has to be updated and re-dwonloaded after a patch.
+Much of the constant data, like abilities, heroes, IDs, and other game data, can be downloaded from Opendota's [Github](https://github.com/odota/dotaconstants/tree/master/build). This does not require API access.
+Keep in mind that sometimes the data has to be updated and re-downloaded after a patch.
 
 The documentation for accessing the Steam API for Dota 2 can be found on the [Team Fortress Wiki](https://wiki.teamfortress.com/wiki/WebAPI#Dota_2)(?).
 
