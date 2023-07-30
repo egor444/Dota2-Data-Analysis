@@ -2,8 +2,6 @@ import json
 
 import requests
 
-STEAMID = "76561198085227187"
-STEAMID32 = 124961459
 
 class URLBuilder():
     """
@@ -85,6 +83,7 @@ def jprint(obj):
 #### which is why a lot of it is commented out. Use at own risk.
 
 
+STEAMID32 = 0
 
 lossList = {}
 for i in range(1,139):
